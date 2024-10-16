@@ -19,7 +19,7 @@ Syncing photos to an S3 bucket using RClone.
    - `SOURCE_DIR`: The directory containing your photos
    - `S3_BUCKET`: Your rclone remote configuration and S3 bucket path
 
-3. Ensure the script has executable permissions (for Bash script):
+3. Ensure the script has executable permissions (for Unix):
    ```
    chmod +x photo_sync.sh
    ```
