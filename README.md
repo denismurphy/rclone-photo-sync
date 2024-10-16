@@ -2,17 +2,6 @@
 
 Syncing photos to an S3 bucket using RClone.
 
-## Table of Contents
-
-- [Prerequisites](#prerequisites)
-- [Setup](#setup)
-- [Usage](#usage)
-- [Script Details](#script-details)
-  - [photo_sync.sh (Bash)](#photo_syncsh-bash-script)
-  - [photo_sync.ps1 (PowerShell)](#photo_syncps1-powershell-script)
-- [Customisation](#customisation)
-- [Troubleshooting](#troubleshooting)
-
 ## Prerequisites
 
 - rclone installed and configured with your S3 bucket
@@ -89,4 +78,4 @@ You can customise the following variables in both scripts:
 - If the sync doesn't start, check the log file (`photo_sync.log`) for error messages
 - Ensure rclone is properly configured with your S3 bucket
 - Verify that the source directory exists and is accessible
-- Check that you have the necessary permissions to run the script and access the required directories
+- Check that you have the necessary IAM permissions to run the script and access the required S3 bucket
