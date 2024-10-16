@@ -1,6 +1,6 @@
 # Rclone Photo Sync
 
-Syncing photos to an S3 bucket using RClone.
+Syncing photos to an S3 bucket using Rclone.
 
 ## Prerequisites
 
