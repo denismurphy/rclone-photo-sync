@@ -30,7 +30,6 @@ Both scripts support the following commands:
 
 - `start`: Begin the sync process
 - `stop`: Stop the running sync process
-- `restart`: Stop and then start the sync process
 - `status`: Check if a sync process is currently running
 
 ### Bash Script (Unix)
