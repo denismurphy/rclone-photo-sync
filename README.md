@@ -75,9 +75,9 @@ Key features:
 - Logs sync activities
 - Handles graceful termination and force killing if necessary
 
-## Customization
+## Customisation
 
-You can customize the following variables in both scripts:
+You can customise the following variables in both scripts:
 
 - `SOURCE_DIR`: Set this to the directory containing your photos
 - `S3_BUCKET`: Set this to your rclone remote configuration and S3 bucket path
