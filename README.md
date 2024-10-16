@@ -16,13 +16,14 @@ Syncing photos to an S3 bucket using RClone.
 ## Prerequisites
 
 - rclone installed and configured with your S3 bucket
-- Bash (for Unix-based systems) or PowerShell (for Windows)
+- - https://rclone.org/install/
+- Bash (for Unix) or PowerShell (for Windows)
 - Appropriate permissions to access the source directory and create/modify files in the script directory
 
 ## Setup
 
 1. Choose the appropriate script based on your operating system:
-   - `photo_sync.sh` for Unix-based systems (Linux, macOS)
+   - `photo_sync.sh` for Unix (Linux, macOS)
    - `photo_sync.ps1` for Windows
 
 2. Edit the script to set the correct values for:
