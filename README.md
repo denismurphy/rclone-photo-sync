@@ -30,18 +30,19 @@ Both scripts support the following commands:
 
 - `start`: Begin the sync process
 - `stop`: Stop the running sync process
+- `restart`: Restart the sync process
 - `status`: Check if a sync process is currently running
 
 ### Bash Script (Unix)
 
 ```bash
-./photo_sync.sh {start|stop|status}
+./photo_sync.sh {start|stop|restart|status}
 ```
 
 ### PowerShell Script (Windows)
 
 ```powershell
-.\photo_sync.ps1 {start|stop|status}
+.\photo_sync.ps1 {start|stop|restart|status}
 ```
 
 ## Script Details
